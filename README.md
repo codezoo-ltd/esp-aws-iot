@@ -7,7 +7,13 @@ If you are using the older (3.x.x) `aws-iot-device-sdk-embedded-C` release, plea
 This SDK enables AWS IoT cloud connectivity with ESP32-based platforms using the libraries provided as a part of the [AWS IoT Device Embedded C SDK](https://github.com/aws/aws-iot-device-sdk-embedded-C).
 
 ## Getting Started
-
+[codezoo-ltd]
+- Please clone this repository
+    ```
+    git clone --recursive https://github.com/codezoo-ltd/esp-aws-iot.git
+    ```
+    
+[original]
 - Please clone this branch of the repository using
     ```
     git clone -b "<name_of_the_release_branch>" --recursive https://github.com/espressif/esp-aws-iot
