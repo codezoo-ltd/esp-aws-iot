@@ -6,7 +6,7 @@ set(EXTRA_COMPONENT_DIRS "$ENV{IDF_PATH}/examples/common_components/protocol_exa
 						 "${CMAKE_CURRENT_LIST_DIR}/../../../libraries/backoffAlgorithm"
 						 "${CMAKE_CURRENT_LIST_DIR}/../../../libraries/coreMQTT"
 						 "${CMAKE_CURRENT_LIST_DIR}/../../../libraries/common/posix_compat"
-						 "${CMAKE_CURRENT_LIST_DIR}/../../../libraries/esp_modem"
+						 "${CMAKE_CURRENT_LIST_DIR}/../../../libraries/esp-protocols/components/esp_modem"
 	)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
